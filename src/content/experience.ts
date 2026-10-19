@@ -18,7 +18,7 @@ export const experience: ExperienceEntry[] = [
       "Building new data flow automations between newly integrated inventory management systems (Prediko ⇌ Shopify) to drive operational efficiency and productivity.",
       "Maintain catalog integrity across 4,000+ technical products and 10,000+ annual transactions for a high-performing ecommerce store, inherited alongside an extensive SOP library.",
       "Manage complex variant architecture, metafields/metaobjects, and bulk catalog operations via Matrixify, including SEO-preserving lifecycle management for discontinued SKUs.",
-      "Coordinate associates on daily catalog workflows and keep process documentation current as the platform and integrations evolve."
+      "Coordinate associates on catalog workflows and maintain current process documentation."
     ],
     tools: ["Google Workspace App Script", "Google Sheets", "Google Docs", "Shopify", "Matrixify", "Prediko", "AI-Powered Automation", "HTML", "CSS", "Liquid", "Javascript", "Shopify Flow"],
   },
