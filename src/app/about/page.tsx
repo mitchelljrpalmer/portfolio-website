@@ -15,7 +15,7 @@ export default function AboutPage() {
       <div className="grid gap-12 md:grid-cols-[2fr_1fr] md:gap-16">
         <div>
           <p className="text-sm uppercase tracking-widest text-mono">About Me</p>
-          <h1 className="mt-3 font-serif text-4xl text-ink">{about.intro}</h1>
+          <h1 className="mt-3 font-serif text-2xl leading-tight text-ink sm:text-3xl md:text-4xl">{about.intro}</h1>
 
           <a
             href={site.resumeUrl}

@@ -33,13 +33,13 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-surface">
+        <div className="relative mx-auto aspect-[4/5] w-full max-w-xs overflow-hidden rounded-2xl bg-surface md:mx-0 md:max-w-sm">
           <Image
             src="/images/site/portrait-hero.jpg"
             alt={site.name}
             fill
             priority
-            sizes="(max-width: 768px) 100vw, 480px"
+            sizes="(max-width: 768px) 320px, 384px"
             className="object-cover"
           />
         </div>
