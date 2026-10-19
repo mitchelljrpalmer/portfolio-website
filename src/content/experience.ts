@@ -53,8 +53,8 @@ export const experience: ExperienceEntry[] = [
     type: "Seasonal",
     bullets: [
       "Coordinated scheduling for guests and guides as the central communication point between operations, hospitality, and guiding teams, while tracking revenue metrics.",
-      "Independently built two automation tools — a daily guide/guest transit schedule generator and an activity-based lunch and cooler assignment system — replacing manual scheduling and catering assignment, saving an estimated ~110 hours across the season.",
-      "Built self-initiated, outside formal job duties; the team has since re-engaged me multiple times to refine the tools, and I've virtually trained two cohorts of new staff on them, who reported it significantly eased their onboarding.",
+      "Independently built two automation tools: a daily guide/guest transit schedule generator and an activity-based lunch and cooler assignment system, replacing manual scheduling and catering assignment and saving an estimated ~1 hour per day (~115 hours across the season).",
+      "The self-initiated automation tools, built outside formal job duties, resulted in the team re-engaging with me multiple times to refine the tools. I've virtually trained two groups of seasonal staff on them, who reported it significantly eased their onboarding.",
     ],
     tools: ["Google Sheets", "Conditional Logic"],
   },
