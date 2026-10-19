@@ -5,6 +5,7 @@ export const site = {
   email: "mitchellpalmer6@gmail.com",
   description:
     "Scientific data analyst portfolio and projects. Experience in geospatial, e-commerce & operation analytics. Skilled in Python, SQL, Machine Learning & Google Earth Engine.",
+  resumeUrl: "/resume/Mitchell-Palmer-Resume.pdf",
 };
 
 export const nav = [
@@ -15,7 +16,7 @@ export const nav = [
 ];
 
 export const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/mitchell-palmer-188279283/" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/mitchell-j-r-palmer/" },
   { label: "GitHub", href: "https://github.com/mitchelljrpalmer" },
   { label: "Kaggle", href: "https://www.kaggle.com/mitchellpalmer9599" },
   // { label: "Tableau", href: "https://public.tableau.com/app/profile/mitchell.palmer/vizzes" },

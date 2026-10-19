@@ -17,6 +17,14 @@ export default function ExperiencePage() {
         operational data into actionable business decisions.
       </p>
 
+      <a
+        href={site.resumeUrl}
+        download
+        className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-medium text-paper hover:bg-brand-dark transition-colors"
+      >
+        Download Resume
+      </a>
+
       <ol className="mt-12 space-y-10 border-l border-border/70 pl-8">
         {experience.map((e) => (
           <li key={`${e.role}-${e.period}`} className="relative">

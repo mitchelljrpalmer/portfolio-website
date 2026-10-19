@@ -36,6 +36,14 @@ export default function Footer() {
             </a>
           ))}
         </div>
+
+        <a
+          href={site.resumeUrl}
+          download
+          className="inline-flex items-center gap-2 self-start rounded-full bg-brand px-5 py-2.5 text-sm font-medium text-paper hover:bg-brand-dark transition-colors"
+        >
+          Download Resume
+        </a>
       </div>
       <div className="container-page pb-8 text-xs text-mono">
         © {new Date().getFullYear()} {site.name}.

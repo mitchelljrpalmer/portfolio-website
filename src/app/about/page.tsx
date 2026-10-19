@@ -17,6 +17,14 @@ export default function AboutPage() {
           <p className="text-sm uppercase tracking-widest text-mono">About Me</p>
           <h1 className="mt-3 font-serif text-4xl text-ink">{about.intro}</h1>
 
+          <a
+            href={site.resumeUrl}
+            download
+            className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand px-6 py-3 text-sm font-medium text-paper hover:bg-brand-dark transition-colors"
+          >
+            Download Resume
+          </a>
+
           <div className="mt-8 space-y-5 text-body">
             {about.bio.map((p, i) => (
               <p key={i}>{p}</p>
