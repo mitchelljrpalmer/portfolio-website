@@ -25,11 +25,11 @@ export const experience: ExperienceEntry[] = [
   {
     role: "Data Services Contractor",
     org: "Bella Coola Heli Sports",
-    period: "February 2026 – May 2026",
-    type: "Contract",
+    period: "February 2026 – March 2026",
+    type: "Fixed Contract",
     bullets: [
-      "Building Single Source of Truth (SSOT) document infrastructure to eliminate duplicated data.",
-      "Created documentation lineage and identified necessary SSOT documents.",
+      "Built the initial Single Source of Truth (SSOT) document framework for a short-term data infrastructure engagement.",
+      "Mapped document lineage and identified priority documents across transportation, rate sheets, and guest-facing guidelines.",
     ],
     tools: ["Google Workspace App Script", "Google Sheets", "Google Docs"],
   },
@@ -46,7 +46,7 @@ export const experience: ExperienceEntry[] = [
     tools: ["Salesforce", "Google Sheets"],
   },
   {
-    role: "Receptionist",
+    role: "Wildlife Lodge Receptionist",
     org: "Bella Coola Heli Sports / Tweedsmuir Park Lodge",
     period: "June 2024 – October 2024",
     type: "Seasonal",
