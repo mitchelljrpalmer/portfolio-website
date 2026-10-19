@@ -25,10 +25,10 @@ export const experience: ExperienceEntry[] = [
   {
     role: "Data Services Contractor",
     org: "Bella Coola Heli Sports",
-    period: "February 2026 – March 2026",
+    period: "February 2026 – May 2026",
     type: "Fixed Contract",
     bullets: [
-      "Built the initial Single Source of Truth (SSOT) document framework for a short-term data infrastructure engagement.",
+      "Established the foundational Single Source of Truth (SSOT) document framework for a limited-hours data infrastructure engagement.",
       "Mapped document lineage and identified priority documents across transportation, rate sheets, and guest-facing guidelines.",
     ],
     tools: ["Google Workspace App Script", "Google Sheets", "Google Docs"],
