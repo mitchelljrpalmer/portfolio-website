@@ -16,7 +16,7 @@ export const experience: ExperienceEntry[] = [
     bullets: [
       "Building an AI-powered product upload pipeline, shifting manual, labour-intensive, error-prone catalog entry to a streamlined, automated workflow.",
       "Building new data flow automations between newly integrated inventory management systems (Prediko ⇌ Shopify) to drive operational efficiency and productivity.",
-      "Maintain catalog integrity across 4,000+ technical products and 10,000+ annual transactions for a high-performing ecommerce store, inherited alongside an extensive SOP library.",
+      "Maintain catalog integrity across 4,000+ technical products and 10,000+ variants for a high-performing ecommerce store, inherited alongside an extensive SOP library.",
       "Manage complex variant architecture, metafields/metaobjects, and bulk catalog operations via Matrixify, including SEO-preserving lifecycle management for discontinued SKUs.",
       "Coordinate associates on catalog workflows and maintain current process documentation."
     ],

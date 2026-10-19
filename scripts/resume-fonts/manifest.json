@@ -1,0 +1,48 @@
+{
+  "_comment": "Local cache of fonts used by the resume (public/resume/Mitchell-Palmer-Resume.odt). Used by embed_fonts.py to re-embed brand fonts into a temp copy before exporting docx/pdf, so rendering is correct regardless of what fonts are installed on the machine doing the export. All fonts here are open-source (SIL Open Font License, Google Fonts).",
+  "families": {
+    "Lexend": {
+      "source": "google-fonts",
+      "google_fonts_dir": "lexend",
+      "variants": [
+        { "weight": "normal", "italic": false, "file": "Lexend/Lexend-Regular.ttf" },
+        { "weight": "bold",   "italic": false, "file": "Lexend/Lexend-Bold.ttf" }
+      ]
+    },
+    "Lexend ExtraBold": {
+      "source": "google-fonts",
+      "google_fonts_dir": "lexend",
+      "note": "Lexend's ExtraBold weight, embedded under its own family name because the document references it as a distinct font-face.",
+      "variants": [
+        { "weight": "normal", "italic": false, "file": "Lexend/Lexend-ExtraBold.ttf" }
+      ]
+    },
+    "Merriweather": {
+      "source": "google-fonts",
+      "google_fonts_dir": "merriweather",
+      "variants": [
+        { "weight": "normal", "italic": false, "file": "Merriweather/Merriweather-Regular.ttf" },
+        { "weight": "bold",   "italic": false, "file": "Merriweather/Merriweather-Bold.ttf" },
+        { "weight": "normal", "italic": true,  "file": "Merriweather/Merriweather-Italic.ttf" },
+        { "weight": "bold",   "italic": true,  "file": "Merriweather/Merriweather-BoldItalic.ttf" }
+      ]
+    },
+    "Open Sans": {
+      "source": "google-fonts",
+      "google_fonts_dir": "opensans",
+      "variants": [
+        { "weight": "normal", "italic": false, "file": "Open Sans/OpenSans-Regular.ttf" },
+        { "weight": "bold",   "italic": false, "file": "Open Sans/OpenSans-Bold.ttf" },
+        { "weight": "normal", "italic": true,  "file": "Open Sans/OpenSans-Italic.ttf" },
+        { "weight": "bold",   "italic": true,  "file": "Open Sans/OpenSans-BoldItalic.ttf" }
+      ]
+    }
+  },
+  "known_unused_in_document": [
+    "Trebuchet MS",
+    "Montserrat SemiBold",
+    "Liberation Sans",
+    "Arial Unicode MS",
+    "PingFang SC"
+  ]
+}
