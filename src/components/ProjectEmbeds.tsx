@@ -1,3 +1,5 @@
+import type { ComponentPropsWithoutRef } from "react";
+
 export function DashboardEmbed({ src, title }: { src: string; title?: string }) {
   return (
     <div className="not-prose breakout my-8 overflow-hidden rounded-2xl border border-border/70">
@@ -31,4 +33,12 @@ export function PdfEmbed({ src }: { src: string }) {
   );
 }
 
-export const projectMdxComponents = { DashboardEmbed, PdfEmbed };
+function Table(props: ComponentPropsWithoutRef<"table">) {
+  return (
+    <div className="my-6 -mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
+      <table {...props} />
+    </div>
+  );
+}
+
+export const projectMdxComponents = { DashboardEmbed, PdfEmbed, table: Table };

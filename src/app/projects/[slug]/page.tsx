@@ -44,7 +44,7 @@ export default async function ProjectPage(props: PageProps<"/projects/[slug]">) 
         ← All projects
       </Link>
 
-      <h1 className="mt-4 max-w-3xl font-serif text-4xl text-ink">{frontmatter.title}</h1>
+      <h1 className="mt-4 max-w-3xl font-serif text-3xl leading-tight text-ink sm:text-4xl">{frontmatter.title}</h1>
       <p className="mt-4 max-w-2xl text-lg text-body">{frontmatter.description}</p>
 
       {frontmatter.link && (
