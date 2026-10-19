@@ -75,6 +75,17 @@ export const experience: ExperienceEntry[] = [
     type: "5 years, cumulative",
     bullets: ["Bartending, serving, and guest experience roles across Canada and New Zealand."],
   },
+  {
+    role: "Basketball Referee",
+    org: "North Harbour Basketball / Basketball New Zealand",
+    period: "2010 – 2017",
+    type: "High School & University",
+    bullets: [
+      "Officiated competitive basketball from high school through university, progressing to Junior Nationals and the top men's city division.",
+      "Built leadership, communication, and decision-making skills under pressure, managing fast-paced games and high-stakes calls in front of players, coaches, and crowds.",
+      "Developed composure and clear communication from a young age, officiating alongside adult referees in senior men's competition.",
+    ],
+  },
 ];
 
 export const education = [

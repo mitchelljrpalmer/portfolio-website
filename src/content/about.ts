@@ -4,7 +4,7 @@ export const about = {
     "I'm Mitchell, a data professional with foundations in logistics, e-commerce, and sustainability-focused operations. I pair rigorous analysis with human-centred thinking, building automations and scientific pipelines that turn messy data into clear decisions.",
     "My path runs from laboratory work to inventory forecasting, growing e-commerce platforms, coordinating global freight, launching carbon-neutral initiatives, and redesigning internal processes for efficiency.",
     "I care about building systems and products that teams actually use. Working inside small, fast-moving organisations, I've seen how data guides strategy, reduces complexity, and unlocks growth.",
-    "With a background in psychology and years in hospitality, I understand how people interpret information, skills that translate directly to analysis and communication.",
+    "With a background in psychology, years in hospitality, and years as a sports referee, I understand how people interpret information and respond under pressure, skills in leadership and communication that translate directly to analysis and stakeholder work.",
     "I'm currently sharpening Python and statistics through hands-on projects and readings. Resources including formal statistics textbooks such as 'An Introduction to Statistical Learning' by Gareth James, and popular education pieces like 'Thinking Fast & Slow' by Daniel Kahneman.",
     "When I'm not immersed in data, you'll find me on a trail, in the ocean, behind a camera, or reading about how we can better connect technology, people, and the natural world.",
   ],
