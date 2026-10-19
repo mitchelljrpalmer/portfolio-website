@@ -145,6 +145,9 @@ def process_xml_file(path: Path, manifest: dict, needed_files: set, resolved: se
         if has_embedded_src(ff_elem):
             continue
         fam = base_family(name)
+        skip_notes = manifest.get("skip_no_embed_needed", {})
+        if name in skip_notes or fam in skip_notes:
+            continue  # deliberately left unembedded -- see manifest.json for why
         entry = manifest["families"].get(name) or manifest["families"].get(fam)
         if entry is None:
             if fam not in manifest.get("known_unused_in_document", []) and name not in manifest.get("known_unused_in_document", []):

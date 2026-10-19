@@ -9,14 +9,6 @@
         { "weight": "bold",   "italic": false, "file": "Lexend/Lexend-Bold.ttf" }
       ]
     },
-    "Lexend ExtraBold": {
-      "source": "google-fonts",
-      "google_fonts_dir": "lexend",
-      "note": "Lexend's ExtraBold weight, embedded under its own family name because the document references it as a distinct font-face.",
-      "variants": [
-        { "weight": "normal", "italic": false, "file": "Lexend/Lexend-ExtraBold.ttf" }
-      ]
-    },
     "Merriweather": {
       "source": "google-fonts",
       "google_fonts_dir": "merriweather",
@@ -44,5 +36,9 @@
     "Liberation Sans",
     "Arial Unicode MS",
     "PingFang SC"
-  ]
+  ],
+  "skip_no_embed_needed": {
+    "Lexend ExtraBold": "Intentionally left without its own embedded font file. The title style (T1) requests this face at fo:font-weight=\"normal\", relying on the glyph shapes alone to look extra-bold, not on a bold instruction. Giving it its own dedicated embed (even at weight=normal) caused LibreOffice to mismatch and render the title in a thinner weight than intended -- tested and confirmed. Leaving it unembedded lets LibreOffice fall back to the base 'Lexend' family's embedded Regular weight, which renders the title correctly. If this ever needs debugging again: re-embedding this face directly is the wrong fix, even though it seems like the more 'correct' one.",
+    "Lexend ExtraBold1": "Same as 'Lexend ExtraBold' above (CJK/complex-script duplicate declaration)."
+  }
 }
